@@ -1,0 +1,33 @@
+h1{
+  color: green;
+  font-family: helvetica;
+}
+
+h2{
+  color: blue;
+}
+
+a{
+  color: red;
+}
+
+p{
+  font-family: helvetica;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+img{
+  border-radius: 10px;
+}
+
+#acerca{
+  font-style: normal;
+}
+
+li{
+  font-style: italic;
+  s
+}
