@@ -7,9 +7,6 @@ h2{
   color: blue;
 }
 
-a{
-  color: red;
-}
 
 p{
   font-family: helvetica;
@@ -30,4 +27,11 @@ img{
 li{
   font-style: italic;
   s
+}
+#encabezado{
+  display: block;
+  margin: 0 auto;
+}
+.enlace{
+  color: green  
 }
