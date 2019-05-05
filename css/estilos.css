@@ -28,10 +28,45 @@ li{
   font-style: italic;
   s
 }
+
 #encabezado{
   display: block;
   margin: 0 auto;
 }
+
 .enlace{
-  color: green  
+  color: green;
+}
+
+img[src$=".jpg"]{
+  border-radius: 50px;
+  /*Esto es para aplicar estilos realizando la busqueda de las palabras al final del nombre del elemento*/
+}
+
+video[src$=".mp4"]{
+  
+}
+
+img[src~="rb"]{
+  /*Esto es para aplicar estilos realizando la busqueda de las palabras al inicio del nombre del elemento*/
+}
+
+img[src*="rb"]{
+  /*Esto es para aplicar estilos realizando la busqueda de las palabras en todo el nombre del elemento*/
+}
+
+a[href]{
+  color: green;
+}
+
+*{
+  /* Esto es para aplicar un estilo a todo el contenido de la pagina */
+}
+
+h1 + h2{
+  text-decoration: underline;
+}
+
+h2 ~ p{
+  text-align: justify;
 }
